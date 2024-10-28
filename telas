@@ -1,0 +1,884 @@
+<?php { ?>
+<style>
+.cuadricula.ivory, .cuadricula.azulcaribe, .cuadricula.canario, .cuadricula.chocolate {
+		display: none !important;
+	}
+</style>
+<div class="muestrario">
+<div class="materiales one-fourth first">
+                    <div class="meta-linea" style="padding-top: 10px"><span>TAPICES</span></div>
+                    
+                    <?php if(get_field('material_2')) { ?>
+                        <button id="material2" class="animalIcon">                           
+                            <?php
+                                $material2 = get_field( 'material_2' );
+                                if( $material2 ): ?>
+                                <?php echo esc_html($material2['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                    <?php if(get_field('material_3')) { ?> 
+                        <button id="material3" class="animalIcon">                           
+                            <?php
+                                $material3 = get_field( 'material_3' );
+                                if( $material3 ): ?>
+                                <?php echo esc_html($material3['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                    <?php if(get_field('material_4')) { ?>
+                        <button id="material4" class="animalIcon">                           
+                            <?php
+                                $material4 = get_field( 'material_4' );
+                                if( $material4 ): ?>
+                                <?php echo esc_html($material4['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                    <?php if(get_field('material_5')) { ?>
+                        <button id="material5" class="animalIcon">                           
+                            <?php
+                                $material5 = get_field( 'material_5' );
+                                if( $material5 ): ?>
+                                <?php echo esc_html($material5['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                    <?php if(get_field('material_6')) { ?>
+                        <button id="material6" class="animalIcon">                           
+                            <?php
+                                $material6 = get_field( 'material_6' );
+                                if( $material6 ): ?>
+                                <?php echo esc_html($material6['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                    <?php if(get_field('material_7')) { ?>
+                        <button id="material7" class="animalIcon">                           
+                            <?php
+                                $material7 = get_field( 'material_7' );
+                                if( $material7 ): ?>
+                                <?php echo esc_html($material7['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<div class="meta-linea" style="padding-top: 10px"><span>MALLAS</span></div>
+	<?php if(get_field('material')) { ?>
+                        <button id="material1" class="animalIcon">                           
+                            <?php
+                                $material1 = get_field( 'material' );
+                                if( $material1 ): ?>
+                                <?php echo esc_html($material1['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                    <?php if(get_field('material_8')) { ?>
+                        <button id="material8" class="animalIcon">                           
+                            <?php
+                                $material8 = get_field( 'material_8' );
+                                if( $material8 ): ?>
+                                <?php echo esc_html($material8['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					
+					<?php if(get_field('material_9')) { ?>
+                        <button id="material9" class="animalIcon">                           
+                            <?php
+                                $material9 = get_field( 'material_9' );
+                                if( $material9 ): ?>
+                                <?php echo esc_html($material9['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+	<div class="meta-linea" style="padding-top: 10px"><span>MATERIALES EXCLUSIVOS BRATTI</span></div>
+					<?php if(get_field('material_10')) { ?>
+                        <button id="material10" class="animalIcon">                           
+                            <?php
+                                $material10 = get_field( 'material_10' );
+                                if( $material10 ): ?>
+                                <?php echo esc_html($material10['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_11')) { ?>
+                        <button id="material11" class="animalIcon">                           
+                            <?php
+                                $material11 = get_field( 'material_11' );
+                                if( $material11 ): ?>
+                                <?php echo esc_html($material11['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_12')) { ?>
+                        <button id="material12" class="animalIcon">                           
+                            <?php
+                                $material12 = get_field( 'material_12' );
+                                if( $material12 ): ?>
+                                <?php echo esc_html($material12['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_13')) { ?>
+                        <button id="material13" class="animalIcon">                           
+                            <?php
+                                $material13 = get_field( 'material_13' );
+                                if( $material13 ): ?>
+                                <?php echo esc_html($material13['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_14')) { ?>
+                        <button id="material14" class="animalIcon">                           
+                            <?php
+                                $material14 = get_field( 'material_14' );
+                                if( $material14 ): ?>
+                                <?php echo esc_html($material14['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_15')) { ?>
+                        <button id="material15" class="animalIcon">                           
+                            <?php
+                                $material15 = get_field( 'material_15' );
+                                if( $material15 ): ?>
+                                <?php echo esc_html($material15['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<div class="meta-linea" style="padding-top: 10px"><span>CUBIERTAS</span></div>
+                    <?php if(get_field('material_16')) { ?>
+                        <button id="material16" class="animalIcon">                           
+                            <?php
+                                $material16 = get_field( 'material_16' );
+                                if( $material16 ): ?>
+                                <?php echo esc_html($material16['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_17')) { ?>
+                        <button id="material17" class="animalIcon">                           
+                            <?php
+                                $material17 = get_field( 'material_17' );
+                                if( $material17 ): ?>
+                                <?php echo esc_html($material17['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_18')) { ?>
+                        <button id="material18" class="animalIcon">                           
+                            <?php
+                                $material18 = get_field( 'material_18' );
+                                if( $material18 ): ?>
+                                <?php echo esc_html($material18['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_19')) { ?>
+                        <button id="material19" class="animalIcon">                           
+                            <?php
+                                $material19 = get_field( 'material_19' );
+                                if( $material19 ): ?>
+                                <?php echo esc_html($material19['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_20')) { ?>
+                        <button id="material20" class="animalIcon">                           
+                            <?php
+                                $material20 = get_field( 'material_20' );
+                                if( $material20 ): ?>
+                                <?php echo esc_html($material20['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_21')) { ?>
+                        <button id="material21" class="animalIcon">                           
+                            <?php
+                                $material21 = get_field( 'material_21' );
+                                if( $material21 ): ?>
+                                <?php echo esc_html($material21['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+					<?php if(get_field('material_22')) { ?>
+                        <button id="material22" class="animalIcon">                           
+                            <?php
+                                $material22 = get_field( 'material_22' );
+                                if( $material22 ): ?>
+                                <?php echo esc_html($material22['label']);  ?>
+                            <?php endif; ?>
+                        </button>
+                    <?php } ?>
+                        
+                    
+                </div>
+                
+                <div class="three-fourths colores">
+                    <div id="colores1" class="odd">
+                        <?php 
+                        $material1 = get_field( 'material' );  
+                        $color1 = 'colores_'.$material1['value'];
+                        $colores1 = get_field($color1);
+                        if( $colores1 ): ?>  
+                        <h2><?php echo $material1['label']; ?></h2>
+                            <?php foreach( $colores1 as $color ): ?>
+								<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material1['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material1['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material1['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material1['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material1['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+								<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>                        
+                        <?php endif; ?>                      
+                    </div>
+                    <div id="colores2" class="odd">
+                        <?php
+                        $material2 = get_field( 'material_2' );  
+                        $color2 = 'colores_'.$material2['value'];
+                        $colores2 = get_field($color2);
+                        if( $colores2 ): ?>  
+                        <h2><?php echo $material2['label']; ?></h2>
+                            <?php foreach( $colores2 as $color ): ?>
+								<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material2['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material2['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material2['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material2['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material2['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>                        
+                        <?php endif; ?>                       
+                    </div>
+                    <div id="colores3" class="odd">
+                        <?php
+                        $material3 = get_field( 'material_3' );  
+                        $color3 = 'colores_'.$material3['value'];
+                        $colores3 = get_field($color3);
+                        if( $colores3 ): ?> 
+                        <h2><?php echo $material3['label']; ?></h2>
+                            <?php foreach( $colores3 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material3['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material3['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material3['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material3['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material3['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>                        
+                        <?php endif; ?>                     
+                    </div>
+                    <div id="colores4" class="odd">
+                        <?php
+                        $material4 = get_field( 'material_4' );  
+                        $color4 = 'colores_'.$material4['value'];
+                        $colores4 = get_field($color4);
+                        if( $colores4 ): ?>  
+                        <h2><?php echo $material4['label']; ?></h2>
+                            <?php foreach( $colores4 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material4['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material4['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material4['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material4['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material4['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>                        
+                        <?php endif; ?>                     
+                    </div>
+                    <div id="colores5" class="odd">
+                        <?php
+                        $material5 = get_field( 'material_5' );  
+                        $color5 = 'colores_'.$material5['value'];
+                        $colores5 = get_field($color5);
+                        if( $colores5 ): ?>    
+                        <h2><?php echo $material5['label']; ?></h2>
+                            <?php foreach( $colores5 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material5['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material5['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material5['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material5['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material5['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?> 
+						
+                        <?php endif; ?>                       
+                    </div>
+                    <div id="colores6" class="odd">
+                        <?php
+                        $material6 = get_field( 'material_6' );  
+                        $color6 = 'colores_'.$material6['value'];
+                        $colores6 = get_field($color6);
+                        if( $colores6 ): ?>    
+                        <h2><?php echo $material6['label']; ?></h2>
+                            <?php foreach( $colores6 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material6['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material6['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material6['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material6['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material6['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>   
+						
+                        <?php endif; ?>                      
+                    </div>
+                    <div id="colores7" class="odd">
+                        <?php
+                        $material7 = get_field( 'material_7' );  
+                        $color7 = 'colores_'.$material7['value'];
+                        $colores7 = get_field($color7);
+                        if( $colores7 ): ?>   
+                        <h2><?php echo $material7['label']; ?></h2>
+                            <?php foreach( $colores7 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+                                <div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material7['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material7['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material7['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material7['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material7['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>  
+						
+                        <?php endif; ?>                      
+                    </div>
+                    <div id="colores8" class="odd">
+                        <?php
+                        $material8 = get_field( 'material_8' );  
+                        $color8 = 'colores_'.$material8['value'];
+                        $colores8 = get_field($color8);
+                        if( $colores8 ): ?>    
+                        <h2><?php echo $material8['label']; ?></h2>
+                            <?php foreach( $colores8 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material8['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material8['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material8['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material8['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material8['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores9" class="odd">
+                        <?php
+                        $material9 = get_field( 'material_9' );  
+                        $color9 = 'colores_'.$material9['value'];
+                        $colores9 = get_field($color9);
+                        if( $colores9 ): ?>    
+                        <h2><?php echo $material9['label']; ?></h2>
+                            <?php foreach( $colores9 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula <?php echo $color['value']; ?>">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material9['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material9['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material9['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material9['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material9['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>    
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores10" class="odd">
+                        <?php
+                        $material10 = get_field( 'material_10' );  
+                        $color10 = 'colores_'.$material10['value'];
+                        $colores10 = get_field($color10);
+                        if( $colores10 ): ?>    
+                        <h2><?php echo $material10['label']; ?></h2>
+                            <?php foreach( $colores10 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material10['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material10['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material10['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material10['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material10['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>   
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores11" class="odd">
+                        <?php
+                        $material11 = get_field( 'material_11' );  
+                        $color11 = 'colores_'.$material11['value'];
+                        $colores11 = get_field($color11);
+                        if( $colores11 ): ?>    
+                        <h2><?php echo $material11['label']; ?></h2>
+                            <?php foreach( $colores11 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material11['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material11['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material11['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material11['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material11['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>    
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores12" class="odd">
+                        <?php
+                        $material12 = get_field( 'material_12' );  
+                        $color12 = 'colores_'.$material12['value'];
+                        $colores12 = get_field($color12);
+                        if( $colores12 ): ?>    
+                        <h2><?php echo $material12['label']; ?></h2>
+                            <?php foreach( $colores12 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material12['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material12['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material12['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material12['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material12['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>    
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores13" class="odd">
+                        <?php
+                        $material13 = get_field( 'material_13' );  
+                        $color13 = 'colores_'.$material13['value'];
+                        $colores13 = get_field($color13);
+                        if( $colores13 ): ?>    
+                        <h2><?php echo $material13['label']; ?></h2>
+                            <?php foreach( $colores13 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material13['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material13['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material13['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material13['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material13['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>   
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores14" class="odd">
+                        <?php
+                        $material14 = get_field( 'material_14' );  
+                        $color14 = 'colores_'.$material14['value'];
+                        $colores14 = get_field($color14);
+                        if( $colores14 ): ?>    
+                        <h2><?php echo $material14['label']; ?></h2>
+                            <?php foreach( $colores14 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material14['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material14['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material14['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material14['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material14['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>    
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores15" class="odd">
+                        <?php
+                        $material15 = get_field( 'material_15' );  
+                        $color15 = 'colores_'.$material15['value'];
+                        $colores15 = get_field($color15);
+                        if( $colores15 ): ?>    
+                        <h2><?php echo $material15['label']; ?></h2>
+                            <?php foreach( $colores15 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material15['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material15['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material15['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material15['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material15['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					<div id="colores16" class="odd">
+                        <?php
+                        $material16 = get_field( 'material_16' );  
+                        $color16 = 'colores_'.$material16['value'];
+                        $colores16 = get_field($color16);
+                        if( $colores16 ): ?>    
+                        <h2><?php echo $material16['label']; ?></h2>
+                            <?php foreach( $colores16 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material16['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material16['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material16['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material16['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material16['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					
+					<div id="colores17" class="odd">
+                        <?php
+                        $material17 = get_field( 'material_17' );  
+                        $color17 = 'colores_'.$material17['value'];
+                        $colores17 = get_field($color17);
+                        if( $colores17 ): ?>    
+                        <h2><?php echo $material17['label']; ?></h2>
+                            <?php foreach( $colores17 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material17['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material17['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material17['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material17['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material17['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					
+					<div id="colores18" class="odd">
+                        <?php
+                        $material18 = get_field( 'material_18' );  
+                        $color18 = 'colores_'.$material18['value'];
+                        $colores18 = get_field($color18);
+                        if( $colores18 ): ?>    
+                        <h2><?php echo $material18['label']; ?></h2>
+                            <?php foreach( $colores18 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material18['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material18['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material18['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material18['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material18['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					
+					<div id="colores19" class="odd">
+                        <?php
+                        $material19 = get_field( 'material_19' );  
+                        $color19 = 'colores_'.$material19['value'];
+                        $colores19 = get_field($color19);
+                        if( $colores19 ): ?>    
+                        <h2><?php echo $material19['label']; ?></h2>
+                            <?php foreach( $colores19 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material19['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material19['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material19['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material19['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material19['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					
+					<div id="colores20" class="odd">
+                        <?php
+                        $material20 = get_field( 'material_20' );  
+                        $color20 = 'colores_'.$material20['value'];
+                        $colores20 = get_field($color20);
+                        if( $colores20 ): ?>    
+                        <h2><?php echo $material20['label']; ?></h2>
+                            <?php foreach( $colores20 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material20['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material20['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material20['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material20['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material20['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					
+					
+					<div id="colores21" class="odd">
+                        <?php
+                        $material21 = get_field( 'material_21' );  
+                        $color21 = 'colores_'.$material21['value'];
+                        $colores21 = get_field($color21);
+                        if( $colores21 ): ?>    
+                        <h2><?php echo $material21['label']; ?></h2>
+                            <?php foreach( $colores21 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material21['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material21['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material21['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material21['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material21['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+					
+					<div id="colores22" class="odd">
+                        <?php
+                        $material22 = get_field( 'material_22' );  
+                        $color22 = 'colores_'.$material22['value'];
+                        $colores22 = get_field($color22);
+                        if( $colores22 ): ?>    
+                        <h2><?php echo $material22['label']; ?></h2>
+                            <?php foreach( $colores22 as $color ): ?>
+						<?php switch_to_blog(1); ?>
+								<div class="cuadricula">
+                                <a href="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material22['value']; echo $color['value']; ?>.jpg" rel="prettyPhoto[]" ><div class="colorchico <?php echo $material22['value'];  echo $color['value']; ?>"><img src="<?php bloginfo('url'); ?>/muestrario/img/<?php echo $material22['value']; echo $color['value']; ?>.jpg" alt="<?php echo $material22['label']; ?> <?php echo $color['label']; ?>" title="<?php echo $material22['label']; ?> <?php echo $color['label']; ?>"></div></a>
+								<h5><?php echo $color['label']; ?></h5>
+								</div>
+						<?php restore_current_blog(); ?>
+                            <?php endforeach; ?>     
+						
+                        <?php endif; ?>  
+                        
+                    </div>
+
+
+
+
+
+
+                    
+                </div>
+	
+	</div>
+<style>
+	.muestrario .colores .colorchico img {
+		
+		border-radius: 0;
+		width: 100%;
+		height: auto;
+		overflow: hidden
+	}
+	.muestrario .colores .colorchico {
+		border-radius: 0%;
+		width: 100%;
+		max-height: 150px;
+		display: inline-block;
+		height: auto;
+		overflow: hidden;
+	}
+	.muestrario .materiales button {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 9px 11px;
+    font-size: 11px;
+    color: #666666;
+    margin: 5px 0px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: left;
+}
+	
+	.muestrario .materiales button:hover {
+
+    background: #dddddd;
+
+}
+
+.muestrario .materiales button:focus {
+
+    background: #000000;
+
+    color: #ffffff;
+
+}
+
+.muestrario .materiales button:active {
+
+    background: #000000;
+
+    color: #ffffff;
+
+}
+	
+	.muestrario .materiales button#material10, .muestrario .materiales button#material11, .muestrario .materiales button#material12, .muestrario .materiales button#material13 {
+    
+    background: #b37d83;
+    color: #ffffff;
+    
+}
+	
+	.muestrario .materiales button#material8:focus, .muestrario .materiales button#material9:focus, .muestrario .materiales button#material10:focus, .muestrario .materiales button#material11:focus, .muestrario .materiales button#material12:focus, .muestrario .materiales button#material13:focus {
+    
+    background: #000000;
+    color: #ffffff;
+    
+}
+
+	.muestrario .cuadricula {
+		width: 24.7%;
+		float: left;
+		margin-left: 0.2%;
+	}
+	
+	.muestrario .cuadricula h5 {
+		font-size: 11px !important;
+		color: #666666;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	
+	@media only screen and (max-width: 1340px) {
+		
+		.muestrario .cuadricula {
+		width: 49%;
+		float: left;
+		margin-left: 0.2%;
+	}
+		
+		.muestrario .colores .colorchico img {
+		
+		border-radius: 0;
+		width: 100%;
+		height: auto;
+		overflow: hidden
+	}
+	.muestrario .colores .colorchico {
+		border-radius: 0%;
+		width: 100%;
+		max-height: 130px;
+		display: inline-block;
+		height: auto;
+		overflow: hidden;
+	}
+	.muestrario .materiales button {
+    width: 32.5%;
+    background: #f1f1f1;
+    padding: 9px 11px;
+    font-size: 11px;
+    color: #666666;
+    margin: 5px 0px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+	}
+
+</style>
+                <script>
+                   // jQuery hide()/show() example with a switch statement 
+
+                    $(document).ready(function() {
+
+
+                      // function to hide all divs 
+                      function hideAll() {
+                        $('#colores1').hide();
+                        $('#colores2').hide();
+                        $('#colores3').hide();
+                        $('#colores4').hide();
+                        $('#colores5').hide();
+                        $('#colores6').hide();
+                        $('#colores7').hide();
+                        $('#colores8').hide();
+						$('#colores9').hide();
+						$('#colores10').hide();
+						$('#colores11').hide();
+						$('#colores12').hide();
+						$('#colores13').hide();
+						$('#colores14').hide();
+						  $('#colores15').hide();
+						$('#colores16').hide();
+						  
+						  $('#colores17').hide();
+						  $('#colores18').hide();
+						  $('#colores19').hide();
+						  $('#colores20').hide();
+						  $('#colores21').hide();
+						  $('#colores22').hide();
+						  
+                        
+                      }
+
+                      // run that function right away
+                      hideAll();
+
+                      // when any animal is clicked, make the suitable div appear
+                      $('.animalIcon').click(function() {
+
+                        // but first, hide all the divs to ensure that 
+                        // only one will be open, ever 
+                        hideAll();
+
+                        // here is a switch statement - this was in Codecademy 
+                        // "Control Flow" lesson 7
+
+                        // we can get the ID of the thing that was clicked - 
+                        switch ($(this).attr("id")) {
+                          case "material1":
+                            $('#colores1').show();
+                            break;
+                          case "material2":
+                            $('#colores2').show();
+                            break;
+                        case "material3":
+                            $('#colores3').show();
+                            break;
+                                case "material4":
+                            $('#colores4').show();
+                            break;
+                                case "material5":
+                            $('#colores5').show();
+                            break;
+                                case "material6":
+                            $('#colores6').show();
+                            break;
+                                case "material7":
+                            $('#colores7').show();
+                            break;
+                                case "material8":
+                            $('#colores8').show();
+                            break;
+								case "material9":
+                            $('#colores9').show();
+                            break;
+								case "material10":
+                            $('#colores10').show();
+                            break;
+								case "material11":
+                            $('#colores11').show();
+                            break;
+								case "material12":
+                            $('#colores12').show();
+                            break;
+								case "material13":
+                            $('#colores13').show();
+                            break;
+								case "material14":
+                            $('#colores14').show();
+                            break;
+								case "material15":
+                            $('#colores15').show();
+                            break;
+								case "material16":
+                            $('#colores16').show();
+                            break;
+								case "material17":
+                            $('#colores17').show();
+                            break;
+								case "material18":
+                            $('#colores18').show();
+                            break;
+								case "material19":
+                            $('#colores19').show();
+                            break;
+								case "material20":
+                            $('#colores20').show();
+                            break;
+								case "material21":
+                            $('#colores21').show();
+                            break;
+								case "material22":
+                            $('#colores22').show();
+                            break;
+                          
+                        }
+                      }); // end of function for clicking 
+
+
+                    });
+                   
+                   
+                    
+                </script>
+
+<?php } ?>
